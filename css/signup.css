@@ -1,26 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 body{
     font-family: "Roboto", sans-serif;
 }
+.page{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
 
+}
 .sign_up{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 15%;
-    margin-top: 22%;
-    width: 50%;
+    margin-left: 8%;
+    height: 100%;
+    
+   
 }
 
 .header{
-    font-size: 72px;
+    font-size: 50px;
     font-weight: bold;
     text-shadow: 5px 5px 10px #4441a6;
+    padding-left: 22%;
+    padding-bottom: 25px;
 }
 
 .bubble{
-    padding: 2%;
+    padding: 6%;
     display: flex;
     
 }
@@ -29,56 +36,86 @@ body{
     width: 2%;
     display: flex;
     position: absolute;
-    left: 17%;
-    padding-right: 5%;
+    left: 13%;
+    padding-right: 21%;
+    border: 1px solid;
+    border-radius: 26px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+
 
 }
 
 .text{
     border: none;
     width: 50%;
-    padding-left: 20%;
-}
-
-.button{
-    left: 65%;
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    padding-left: 55%;
     padding-top: 10%;
 }
 
+.button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 25%;
+    padding-left: 38%;
+    padding-bottom: 25;
+    font-weight: 900;
+    
+}
+
+button{
+    background-color: #0c59f2;
+    border-radius: 26px;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    filter: drop-shadow(10px 5px 10px darkblue);
+    
+}
+
+
 .text2{
-font-weight: 25%;
+font-weight: 10px;
 text-shadow: 5px 5px 5px #4441a6;
-padding-top: 10%;
+padding-top: 25%;
+padding-bottom: 25%;
+padding-left: 5%;
 justify-content: center;
 }
 
 
 .socialmedia{
-    border: 0 none;
     display: flex;
-    width: 50%;
-    
+    padding-right: 5px;
+    flex-direction: row;
+    align-content: center; 
 }
 .socials{
-    height: 7%;
-    width: 7%;
-    padding: 2%;
-    border: solid;
-    border-radius: 100%;
-    
+    height: 70%;
+    width: 70%;
 }
-
+.facebook{
+    font-size: 50px;
+	clip-path: circle(90%);
+    filter: drop-shadow(2px 2px 5px darkblue);
+    padding-right: 5px;
+    margin-left: 13%;
+}
 .computer{
     display: flex;
     justify-content: right;
     flex-direction: column;
+    align-items: center;
 }
 
 .com2{
-    width: 75%;
-    height: 50%;
+    width: 85%;
+    height: 100%;
+    filter: drop-shadow(15px 10px 10px darkblue);
+}
+fieldset{
+    border: none;
 }
