@@ -3,3 +3,135 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+/* 
+* {
+    border: 1px solid red;
+} */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 0.5%;
+    max-width: 80%;
+}
+.logopic {
+    max-width: 70%;
+}
+.home {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+    color: black;
+}
+.features {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+    color: black;
+}
+.pricing {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+.works {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+.support {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+.knopfen {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: center;
+}
+.anmelden {
+    margin-right: 5%;
+    padding: 5%;
+}
+#eintragen {
+    color: #0850F8;
+}
+.versuchen {
+    padding: 5%;
+}
+.anmelden-1 {
+    padding: 10%;
+    width: 100%;
+    border: 2px solid #0850F8;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #0850F8;
+}
+.versuchen-1 {
+    padding: 10%;
+    width: 100%;
+    background-color: #0850F8; 
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:link {
+    color: black;
+}
+
+.upper{
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.upper1{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.upper2 {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: thick;
+}
+
+hr {
+    width: 50%;
+}
+
+.how {
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+
+.how p {
+    font-size: 22px;
+    font-weight: bold;
+}
