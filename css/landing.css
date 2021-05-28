@@ -1,6 +1,245 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
 
-body{
-    font-family: "Roboto", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 4em;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.logo {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 0.5%;
+    max-width: 80%;
+}
+
+.logopic {
+    max-width: 70%;
+}
+
+.home {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+    color: black;
+}
+
+.features {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+    color: black;
+}
+
+.pricing {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+.works {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+.support {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+}
+
+div>a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+div>a:link {
+    color: black;
+}
+
+.knopfen {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.anmelden {
+    margin-right: 5%;
+    padding: 5%;
+}
+
+#eintragen {
+    color: #0850F8;
+}
+
+.versuchen {
+    padding: 5%;
+    margin-right: 60px;
+    color: white;
+}
+
+.anmelden-1 {
+    padding: 10%;
+    width: 100%;
+    border: 2px solid #0850F8;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #0850F8;
+}
+
+.versuchen-1 {
+    padding: 10%;
+    width: 100%;
+    background-color: #0850F8; 
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.versuchen-2 {
+    color:white;
+}
+
+
+
+/* First of four content boxes */
+
+.eins {
+    display: flex;
+    height: 600px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.focus {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 8%;
+}
+
+.nine {
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-right: 4%;
+}
+
+.nineimg {
+    max-height: 100%;
+}
+
+.kendrick {
+    font-size: 1.3em;
+    color: gray;
+}
+
+.upsign {
+    background-color: #0850F8;
+    border: 2px solid #0850F8;
+    font-size: 2em;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.icon {
+    width: 10px;
+}
+
+.chatter {
+    background-color: white;
+    border: 2px solid #0850F8;
+    font-size: 2em;
+    color: #0850F8;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.boldgray {
+    font-size: 1.3em;
+    color: gray;
+}
+
+b {
+    font-weight: 900;
+}
+
+.underline {
+    width: 60%;
+}
+
+.dot {
+    color: #0850F8;
+}
+
+/* second content box */
+
+.zwei {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.starttextbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.starttext {
+    text-align: center;
+}
+
+.startexplore {
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-bottom: 5%;
+}
+
+.exploretext {
+    margin-bottom: 5%;
+}
+
+.littleboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paymentsbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
