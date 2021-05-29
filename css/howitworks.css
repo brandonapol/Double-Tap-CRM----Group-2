@@ -8,10 +8,10 @@ body{
     border: 1px solid red;
 } */
 
-.headerside {
+/* .headerside {
     margin-top: 20px;
 
-}
+} */
 
 
 .header {
@@ -104,7 +104,6 @@ body{
     font-weight: thick;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -121,6 +120,7 @@ a:visited {
     justify-content: center;
     margin-left: 200px;
     margin-right: 100px;
+   
     
 }
 
@@ -131,10 +131,12 @@ a:visited {
     height: 400px;
     justify-content: flex-start;
     
-    
-    
-    
 
+}
+
+.upper img {
+    
+    height: 100%;
 }
 
 .text {
