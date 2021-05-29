@@ -57,6 +57,7 @@ body{
     flex-direction: row;
     flex-grow: 2;
     justify-content: center;
+    margin-right: 100px;
 }
 .anmelden {
     margin-right: 5%;
@@ -70,29 +71,43 @@ body{
 }
 .anmelden-1 {
     padding: 10%;
+    padding-left: 6px;
+    padding-right: 6px;
     width: 100%;
-    border: 2px solid #0850F8;
+    border: 3px solid #0850F8;
     border-radius: 10px;
     font-weight: 500;
     color: #0850F8;
+    text-align: center;
 }
 .versuchen-1 {
     padding: 10%;
     width: 100%;
     background-color: #0850F8; 
+    border: 2px solid #0850F8;
     border-radius: 10px;
     color: white;
     font-weight: 500;
+
 }
+
+.versuchen-1 a {
+    color: white;  
+}
+
+.anmelden-1 a{
+    color: #0850F8;
+    font-weight: thick;
+}
+
+
 a {
     text-decoration: none;
 }
+
 a:visited {
     text-decoration: none;
-    color: black;
-}
-a:link {
-    color: black;
+   
 }
 
 .upper{
@@ -102,14 +117,37 @@ a:link {
     justify-content: center;
     margin-left: 200px;
     margin-right: 100px;
+    
 }
 
 .upper1{
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-    justify-content: center;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    
+    
+    
 
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+
+.text h1{
+    margin-bottom: -10px;
+
+}
+
+.text h2{ 
+    margin-bottom: -2px;
+    
 }
 
 .upper2 {
@@ -121,8 +159,27 @@ a:link {
 }
 
 .upper h1 {
+    font-size: 60px;
+    font-weight: 1500;
+}
+
+.upper h2 {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 1500;
+}
+
+.upper p {
+    color: gray;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.double p {
+    color: gray;
+    font-size: 19px;
+    font-weight: 500;
+
 }
 
 hr {
@@ -145,6 +202,7 @@ hr {
    
     width: 40%;
     border-radius: 10px 0px 0px 10px;
+    border: 3px solid #0850F8;
 }
 
 .box2{
@@ -160,6 +218,7 @@ hr {
     
     width: 40%;
     border-radius: 10px 0px 0px 10px;
+    border: 3px solid #0850F8;
 }
 
 .box4{
@@ -192,20 +251,24 @@ hr {
 
 .overlayimg{
     margin: auto;
-    height: 220px;
+    height: 20em;
+    margin-top: 80px;
     width: 70%;
-    margin-top: 120px;
     display: flex;
     justify-content: center;
+    
+
+
 }
 
 .overlayimg2{
     margin: auto;
-    height: 220px;
+    height: 320px;
     width: 30%;
     margin-top: 120px;
     display: flex;
     justify-content: center;
+    
 }
 
 
@@ -223,6 +286,7 @@ font-weight: bold;
     width: 75%;
     margin: auto;
     font-size: 23px;
+    
 
 }
 
@@ -231,7 +295,66 @@ font-weight: bold;
     width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 10px;
     
 
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+    margin-bottom: -10px;
+
+    
+    
+}
+
+
+.fas{
+    color: white; 
+    /* margin-top: 5px; */
+    display: inline-block;
+}
+
+.far{
+    color: #0850F8; 
+    display: inline-block;
+}
+
+
+.chat {
+
+}
+
+.chat1 {
+    padding: 10%;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: 3px solid #0850F8;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #0850F8;
+    text-align: center;
+}
+.signup1 {
+    padding: 10%;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #0850F8; 
+    border: 3px solid #0850F8;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+
+}
+
+.signup1 a {
+    color: white;  
+}
+
+.chat1 a{
+    color: #0850F8;
+    font-weight: thick;
 }
