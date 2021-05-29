@@ -112,7 +112,7 @@ a:visited {
 
 .upper{
     display: flex;
-    height: 658px;
+    height: 678px;
     flex-direction: row;
     justify-content: center;
     margin-left: 200px;
@@ -180,8 +180,13 @@ a:visited {
 }
 
 .upper p {
+    font-size: 18px;
+}
+
+.upper h4{
     font-size: 14px;
 }
+
 
 .upper i{
     color: #0850F8;
@@ -333,7 +338,7 @@ font-weight: bold;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 520px;
+    width: 500px;
     margin-bottom: -10px;
 
     
