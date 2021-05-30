@@ -1,4 +1,4 @@
-                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=');
                 body {
                     font-family: "Roboto", sans-serif;
                 }
@@ -6,46 +6,101 @@
                 .grid-container {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
-                    height: 700px;
+                    height: 900px;
                 }
                 
-                .grid-one {
+                .grid-item1 {
                     background-color: blue;
+                    border-radius: 0% 0% 120% 0;
                 }
                 
-                div.text {
+                img {
+                    inline-size: 50%;
+                    padding-left: 25%;
+                    padding-top: 10%;
+                }
+                
+                div.text1 {
+                    font-size: medium;
                     color: white;
                     padding-top: 5%;
                     padding-left: none;
-                    border-color: black;
                 }
                 
                 h2 {
                     text-align: center;
                 }
                 
-                img {
-                    inline-size: 50%;
-                    padding-top: 10%;
-                    padding-left: 25%;
+                .sign-up {
+                    border-color: white;
+                    width: 20%;
+                    margin-left: 40%;
+                    border: 2px solid white;
                 }
                 
-                .sign-in {
+                .signform-info {
                     width: 50%;
-                    background: #fff;
+                    background: white;
                     padding: 20px;
                     margin: 8% auto 0;
                     text-align: center;
-                    margin: 10% auto 0;
+                    border-color: none;
                 }
                 
-                .sign-in h1 {
-                    color: black;
-                    margin-bottom: 30px
+                .grid-containertwo {
+                    height: 900px;
+                    padding-top: 50px;
+                    border: none;
                 }
                 
-                .input-box {
-                    border-radius: 20px;
-                    text-align: center;
+                button {
+                    color: white;
+                    width: 30%;
+                    background-color: blue;
                     padding: 10px;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    margin: 15px 100px;
+                    outline: none;
+                    cursor: pointer;
+                    border: none;
+                }
+                
+                button:hover {
+                    color: blue;
+                    background-color: white;
+                }
+                
+                .sign-in-form h1 {
+                    color: black;
+                    margin-bottom: 30px;
+                }
+                
+                .input-field {
+                    border-radius: 20px;
+                    padding: 10px;
+                    margin: 10px 0;
+                    width: 50%;
+                    border: 1px solid rgb(150, 150, 150);
+                    outline: none;
+                    text-align: center;
+                }
+                
+                .fa,
+                .fab {
+                    padding: 10px;
+                    font-size: 10px;
+                    width: 10px;
+                    text-align: center;
+                    text-decoration: none;
+                    margin: 5px 2px;
+                    border-radius: 50%;
+                    color: black;
+                    border: 1px solid #cdd0cb;
+                }
+                
+                .fa,
+                .fab:hover {
+                    color: blue;
+                    background-color: white;
                 }
